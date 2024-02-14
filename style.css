@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+#formulario {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario h1 {
+    font-size: 3em;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border: 2px blue solid;
+    border-radius: 10%;
+}
+
+.div label {
+    padding-bottom: 0.2em;
+}
+
+.resposta_css {
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
